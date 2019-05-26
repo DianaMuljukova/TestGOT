@@ -1,0 +1,80 @@
+.content {
+
+
+  .question {
+    font-weight: bold;
+    margin: 10px;
+    font-size: 22px;
+  }
+
+  .pages{
+    padding: 0;
+    margin: 0;
+  }
+
+  img {
+    display: block;
+    margin: 30px auto;
+
+  }
+
+  div {
+    text-align: left;
+    line-height: 3;
+  }
+
+  .option {
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+  }
+
+  .option:first-child {
+    border-top: 1px solid #ccc;
+  }
+
+  .myButton {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    //overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(100%);
+
+    &:checked + .checkpoint {
+      border: 8px solid #ff5252;
+    }
+  }
+
+  .checkpoint {
+    width: 25px;
+    height: 25px;
+    border-radius: 30px;
+    border: 2px solid #ff5252;
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    box-sizing: border-box;
+  }
+
+  .option:hover .checkpoint {
+    border-width: 8px;
+    transition: 5ms;
+
+    box-sizing: border-box;
+  }
+
+  .option:active .checkpoint {
+    border-color: #a70000;
+  }
+
+  .option:hover {
+    background-color: #eee;
+  }
+
+  .option:active {
+    background-color: rgba(153,153,153, 0.3);;
+  }
+}

@@ -1,0 +1,138 @@
+html, body {
+  margin: 0;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #d68f01;
+  background-size: cover;
+  height: 100vh; }
+
+.hidden {
+  display: none; }
+
+.wrapper {
+  width: 100%; }
+  .wrapper .container {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 50px 70px 50px 70px; }
+    .wrapper .container .content {
+      margin: 0 auto;
+      text-align: center;
+      width: 650px;
+      background-color: rgba(255, 255, 255, 0.95);
+      padding: 50px 40px 50px 40px; }
+      .wrapper .container .content h1 {
+        font-size: 48px; }
+      .wrapper .container .content .btn {
+        display: block;
+        width: 200px;
+        background-color: #ec5e40;
+        margin: 60px auto 0 auto;
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        cursor: pointer; }
+      .wrapper .container .content .btn:hover {
+        background-color: #f1856e; }
+      .wrapper .container .content .btn:active {
+        background-color: #e23a17; }
+
+.content .question {
+  font-weight: bold;
+  margin: 10px;
+  font-size: 22px; }
+.content .pages {
+  padding: 0;
+  margin: 0; }
+.content img {
+  display: block;
+  margin: 30px auto; }
+.content div {
+  text-align: left;
+  line-height: 3; }
+.content .option {
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  align-items: center; }
+.content .option:first-child {
+  border-top: 1px solid #ccc; }
+.content .myButton {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%); }
+  .content .myButton:checked + .checkpoint {
+    border: 8px solid #ff5252; }
+.content .checkpoint {
+  width: 25px;
+  height: 25px;
+  border-radius: 30px;
+  border: 2px solid #ff5252;
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+  box-sizing: border-box; }
+.content .option:hover .checkpoint {
+  border-width: 8px;
+  transition: 5ms;
+  box-sizing: border-box; }
+.content .option:active .checkpoint {
+  border-color: #a70000; }
+.content .option:hover {
+  background-color: #eee; }
+.content .option:active {
+  background-color: rgba(153, 153, 153, 0.3); }
+
+.first__result {
+  background-image: url("../images/6.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 850px; }
+
+.text {
+  background-color: rgba(255, 255, 255, 0.95);
+  position: absolute;
+  top: 70%;
+  font-weight: bold;
+  width: 600px; }
+
+.result {
+  position: relative; }
+
+.second__result {
+  background-image: url("../images/7.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 850px; }
+
+.third__result {
+  background-image: url("../images/8.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 850px; }
+
+.forth__result {
+  background-image: url("../images/9.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 850px; }
+
+.back__to {
+  text-decoration: none;
+  color: black;
+  text-align: left;
+  cursor: pointer;
+  display: block;
+  margin-top: 30px; }
+
+.back__to:hover {
+  font-size: 30px; }
+
+/*# sourceMappingURL=sass.css.map */

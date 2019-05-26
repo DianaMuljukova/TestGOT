@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles/sass.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="wrapper" id="q1">
+    <section class="container">
+        <section class="content">
+            <p class="pages">1/5</p>
+            <p class="question">В детстве вы мечтали...
+            </p>
+            <img src="images/1.jpg" alt="Маленькие герои" class="image__1">
+
+            <div>
+                <div class="option">
+                    <input type="radio" onclick="check(3, '#q2')" class="myButton" id="option1" name="vopros1">
+                    <span class="checkpoint"></span>
+                    <label for ="option1">Сражаться в битвах</label>
+                </div>
+
+                <div class="option">
+                    <input type="radio" onclick="check(2, '#q2')" class="myButton" id="option2" name="vopros1">
+                    <span class="checkpoint"></span>
+                    <label for ="option2">Стать королем или королевой</label>
+                </div>
+
+                <div class="option">
+                    <input type="radio" onclick="check(4, '#q2')" class="myButton" id="option3" name="vopros1">
+                    <span class="checkpoint"></span>
+                    <label for ="option3">Стать путешественником</label>
+                </div>
+
+
+                <div class="option">
+                    <input type="radio" onclick="check(1, '#q2')" class="myButton" id="option4" name="vopros1">
+                    <span class="checkpoint"></span>
+                    <label for ="option4">Наслаждаться жизнью, катаясь на драконах</label>
+                </div>
+            </div>
+        </section>
+    </section>
+</div>
+
+<div class="wrapper" id="q2">
+    <section class="container">
+        <section class="content">
+            <p class="pages">2/5</p>
+            <p class="question">Что для вас имеет наибольшее значение?
+            </p>
+            <img src="images/11b0d0116a99e60169ac37509126740d.jpg" alt="Герои сериала" class="image__1">
+
+            <div>
+                <div class="option">
+                    <input type="radio" onclick="check(1, '#q3')" class="myButton" id="option5" name="vopros2">
+                    <span class="checkpoint"></span>
+                    <label for ="option5">Справедливость</label>
+                </div>
+
+                <div class="option">
+                    <input type="radio" onclick="check(2, '#q3')" class="myButton" id="option6" name="vopros2">
+                    <span class="checkpoint"></span>
+                    <label for ="option6">Власть</label>
+                </div>
+
+                <div class="option">
+                    <input type="radio" onclick="check(3, '#q3')" class="myButton" id="option7" name="vopros2">
+                    <span class="checkpoint"></span>
+                    <label for ="option7">Семья</label>
+                </div>
+
+
+                <div class="option">
+                    <input type="radio" onclick="check(4, '#q3')" class="myButton" id="option8" name="vopros2">
+                    <span class="checkpoint"></span>
+                    <label for ="option8">Новые эмоции</label>
+                </div>
+            </div>
+        </section>
+    </section>
+</div>
+
+
+<div class="wrapper" id="q3">
+    <section class="container">
+        <section class="content">
+            <p class="pages">3/5</p>
+            <p class="question">На ваши владения напали. Ваши действия
+            </p>
+            <img src="images/3.jpg" alt="Герои сериала" class="image__1">
+
+            <div>
+                <div class="option">
+                    <input type="radio" onclick="check(3, '#q4')" class="myButton" id="option9" name="vopros3">
+                    <span class="checkpoint"></span>
+                    <label for ="option9">Поскачу на коне впереди всех</label>
+                </div>
+
+                <div class="option">
+                    <input type="radio" onclick="check(1, '#q4')" class="myButton" id="option10" name="vopros3">
+                    <span class="checkpoint"></span>
+                    <label for ="option10">Придумаю самую лучшую тактику</label>
+                </div>
+
+                <div class="option">
+                    <input type="radio" onclick="check(4, '#q4')" class="myButton" id="option11" name="vopros3">
+                    <span class="checkpoint"></span>
+                    <label for ="option11">Шпионом проберусь в тыл врага и убью самого главного</label>
+                </div>
+
+
+                <div class="option">
+                    <input type="radio" onclick="check(2, '#q4')" class="myButton" id="option12" name="vopros3">
+                    <span class="checkpoint"></span>
+                    <label for ="option12">Убью их всех!</label>
+                </div>
+            </div>
+        </section>
+    </section>
+</div>
+
+<div class="wrapper" id="q4">
+    <section class="container">
+        <section class="content">
+            <p class="pages">4/5</p>
+            <p class="question">Как бы вы хотели провести отпуск?
+            </p>
+            <img src="images/4.jpg" alt="Герои сериала" class="image__1">
+
+            <div>
+                <div class="option">
+                    <input type="radio" onclick="check(1, '#q5')" class="myButton" id="option13" name="vopros4">
+                    <span class="checkpoint"></span>
+                    <label for ="option13">С друзьями и алкоголем</label>
+                </div>
+
+                <div class="option">
+                    <input type="radio" onclick="check(3, '#q5')" class="myButton" id="option14" name="vopros4">
+                    <span class="checkpoint"></span>
+                    <label for ="option14">С любимым человеком</label>
+                </div>
+
+                <div class="option">
+                    <input type="radio" onclick="check(4, '#q5')" class="myButton" id="option15" name="vopros4">
+                    <span class="checkpoint"></span>
+                    <label for ="option15">Отправиться в еще одну страну</label>
+                </div>
+
+
+                <div class="option">
+                    <input type="radio" onclick="check(2, '#q5')" class="myButton" id="option16" name="vopros4">
+                    <span class="checkpoint"></span>
+                    <label for ="option16">Мне не нужен отпуск!</label>
+                </div>
+            </div>
+        </section>
+    </section>
+</div>
+
+<div class="wrapper" id="q5">
+    <section class="container">
+        <section class="content">
+            <p class="pages">5/5</p>
+            <p class="question">Вы стали королем. Ваши действия:
+            </p>
+            <img src="images/5.jpg" alt="Герои сериала" class="image__1">
+
+            <div>
+                <div class="option">
+                    <input type="radio" onclick="check(2)" class="myButton" id="option17" name="vopros5">
+                    <span class="checkpoint"></span>
+                    <label for ="option17">Разберусь с врагами</label>
+                </div>
+
+                <div class="option">
+                    <input type="radio" onclick="check(1)" class="myButton" id="option18" name="vopros5">
+                    <span class="checkpoint"></span>
+                    <label for ="option18">Устрою вечеринку</label>
+                </div>
+
+                <div class="option">
+                    <input type="radio" onclick="check(2)" class="myButton" id="option19" name="vopros5">
+                    <span class="checkpoint"></span>
+                    <label for ="option19">Подумаю о людях: отменю рабство, буду бороться с голодом</label>
+                </div>
+
+
+                <div class="option">
+                    <input type="radio" onclick="check(4)" class="myButton" id="option20" name="vopros5">
+                    <span class="checkpoint"></span>
+                    <label for ="option20">Нет, спасибо, это точно не для меня!</label>
+                </div>
+            </div>
+            <a href="#" class="btn" onClick=>Показать результаты</a>
+        </section>
+    </section>
+</div>
+
+<div class="wrapper hidden first" id="r1">
+    <section class="container">
+        <section class="content">
+            <p>Результаты</p>
+            <div class="result first__result">
+                <section class="text">
+                    <p>Вы - Арья Старк!</p>
+                    <p>Образованная, умная, дерзкая и свободолюбивая.</p>
+                </section>
+            </div>
+            <a href="http://localhost:63342/test/html.html?_ijt=3gg78er3hbk9a4i2odlpdr7i9s" class="back__to">Пройти тест еще раз</a>
+        </section>
+    </section>
+</div>
+
+<div class="wrapper hidden second" id="r2">
+    <section class="container">
+        <section class="content">
+            <p>Результаты</p>
+            <div class="result second__result">
+                <section class="text">
+                    <p>Вы - Тирион Ланнистер!</p>
+                    <p>Мудрый, ироничный, справедливый и способный на глубокие чувства.</p>
+                </section>
+            </div>
+            <a href="http://localhost:63342/test/html.html?_ijt=3gg78er3hbk9a4i2odlpdr7i9s" class="back__to">Пройти тест еще раз</a>
+        </section>
+    </section>
+</div>
+
+<div class="wrapper hidden third" id="r3">
+    <section class="container">
+        <section class="content">
+            <p>Результаты</p>
+            <div class="result third__result">
+                <section class="text">
+                    <p>Вы - Дейенерис Таргариен!</p>
+                    <p>Дейенерис вся соткана из противоречий. Умная, но иногда недальновидная, справедливая, но мстительная.</p>
+                </section>
+            </div>
+            <a href="http://localhost:63342/test/html.html?_ijt=3gg78er3hbk9a4i2odlpdr7i9s" class="back__to">Пройти тест еще раз</a>
+        </section>
+    </section>
+</div>
+
+<div class="wrapper hidden forth" id="r4">
+    <section class="container">
+        <section class="content">
+            <p>Результаты</p>
+            <div class="result forth__result">
+                <section class="text">
+                    <p>Вы - Джон Сноу!</p>
+                    <p>Лидер, дипломат, джентльмен, всеобщий любимец.</p>
+                </section>
+            </div>
+            <a href="http://localhost:63342/test/html.html?_ijt=3gg78er3hbk9a4i2odlpdr7i9s" class="back__to">Пройти тест еще раз</a>
+        </section>
+    </section>
+</div>
+
+<script src="js.js"></script>
+</body>
+</html>

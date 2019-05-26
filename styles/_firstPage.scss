@@ -1,0 +1,47 @@
+$base-color: #ec5e40;
+
+.wrapper {
+  width: 100%;
+
+
+  .container {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 50px 70px 50px 70px;
+
+    .content {
+      margin: 0 auto;
+      text-align: center;
+      width: 650px;
+      background-color: hsla(0,0%,100%,.95);
+      padding: 50px 40px 50px 40px;
+
+      h1 {
+        font-size: 48px;
+      }
+
+
+      .btn {
+        display: block;
+        width: 200px;
+        background-color: $base-color;
+        margin: 60px auto 0 auto;
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .btn:hover {
+        background-color: lighten($base-color, 10%);
+      }
+
+      .btn:active {
+        background-color: darken($base-color, 10%);
+      }
+
+
+
+    }
+  }
+}

@@ -1,0 +1,56 @@
+.first__result {
+  background-image: url("../images/6.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 850px;
+}
+
+  .text {
+    background-color: hsla(0,0%,100%,.95);
+    position: absolute;
+    top: 70%;
+    font-weight: bold;
+    width: 600px;
+  }
+
+.result {
+  position: relative;
+}
+
+.second__result {
+  background-image: url("../images/7.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 850px;
+}
+
+.third__result {
+  background-image: url("../images/8.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 850px;
+}
+
+.forth__result {
+  background-image: url("../images/9.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 850px;
+}
+
+.back__to {
+  text-decoration: none;
+  color: black;
+  text-align: left;
+  cursor: pointer;
+  display: block;
+  margin-top: 30px;
+}
+
+.back__to:hover {
+  font-size: 30px;
+}
